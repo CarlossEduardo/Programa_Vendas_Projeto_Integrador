@@ -1,0 +1,592 @@
+INSERT INTO venda (codigo_venda, cpf_cliente_venda, desconto_venda, forma_pagamento_venda, valor_total_venda, data_venda)
+		VALUES (1, 12345678912, 0.0, 'Dinheiro', 100.00, '2018-11-01');
+		
+		INSERT INTO  produtos_venda (codigo_venda, codigo_produto_venda, descricao_produto_venda, valor_unidade_venda, quantidade_produto_venda)
+		VALUES (1, 1, 'tenis', 100.00, 1);
+
+		
+		INSERT INTO venda (codigo_venda, cpf_cliente_venda, desconto_venda, forma_pagamento_venda, valor_total_venda, data_venda)
+		VALUES (2, 12345678913, 0.0, 'Dinheiro', 210.00, '2018-11-01');
+		
+		INSERT INTO  produtos_venda (codigo_venda, codigo_produto_venda, descricao_produto_venda, valor_unidade_venda, quantidade_produto_venda)
+		VALUES (2, 4, 'bola07', 105.00, 2);
+		
+		
+		
+		INSERT INTO venda (codigo_venda, cpf_cliente_venda, desconto_venda, forma_pagamento_venda, valor_total_venda, data_venda)
+		VALUES (3, 12345678913, 0.0, 'Boleto', 996.00, '2018-11-02');
+		
+		INSERT INTO  produtos_venda (codigo_venda, codigo_produto_venda, descricao_produto_venda, valor_unidade_venda, quantidade_produto_venda)
+		VALUES (3, 6, 'tenis Kyrie Irving', 498.00, 2);		
+		
+
+		INSERT INTO venda (codigo_venda, cpf_cliente_venda, desconto_venda, forma_pagamento_venda, valor_total_venda, data_venda)
+		VALUES (4, 12345678914, 0.0, 'Cartão Credito', 199.00, '2018-11-02');
+		
+		INSERT INTO  produtos_venda (codigo_venda, codigo_produto_venda, descricao_produto_venda, valor_unidade_venda, quantidade_produto_venda)
+		VALUES (4, 9, 'Jaqueta Brooklyn Nets', 199.00, 1);
+
+		
+		INSERT INTO venda (codigo_venda, cpf_cliente_venda, desconto_venda, forma_pagamento_venda, valor_total_venda, data_venda)
+		VALUES (5, 12345678913, 0.0, 'Cartão Debito', 199.00, '2018-11-02');
+		
+		INSERT INTO  produtos_venda (codigo_venda, codigo_produto_venda, descricao_produto_venda, valor_unidade_venda, quantidade_produto_venda)
+		VALUES (5, 12, 'Meia NBA Cano Alto Cleveland Cavaliers', 70.00, 1);
+
+		
+		INSERT INTO venda (codigo_venda, cpf_cliente_venda, desconto_venda, forma_pagamento_venda, valor_total_venda, data_venda)
+		VALUES (6, 12345678912, 0.0, 'Boleto', 140.00, '2018-11-03');
+		
+		INSERT INTO  produtos_venda (codigo_venda, codigo_produto_venda, descricao_produto_venda, valor_unidade_venda, quantidade_produto_venda)
+		VALUES (6, 12, 'Meia NBA Cano Alto Cleveland Cavaliers', 70.00, 2);
+
+
+		INSERT INTO venda (codigo_venda, cpf_cliente_venda, desconto_venda, forma_pagamento_venda, valor_total_venda, data_venda)
+		VALUES (7, 12345678913, 0.0, 'Cartão Debito', 352.00, '2018-11-03');
+	
+		INSERT INTO  produtos_venda (codigo_venda, codigo_produto_venda, descricao_produto_venda, valor_unidade_venda, quantidade_produto_venda)
+		VALUES (7, 2, 'jersey', 352.00, 1);
+
+
+		INSERT INTO venda (codigo_venda, cpf_cliente_venda, desconto_venda, forma_pagamento_venda, valor_total_venda, data_venda)
+		VALUES (8, 12345678912, 0.0, 'Cartão Debito', 599.00, '2018-11-03');
+		
+		INSERT INTO  produtos_venda (codigo_venda, codigo_produto_venda, descricao_produto_venda, valor_unidade_venda, quantidade_produto_venda)
+		VALUES (8, 5, 'tenis Jordan', 599.00, 1);
+
+		
+		INSERT INTO venda (codigo_venda, cpf_cliente_venda, desconto_venda, forma_pagamento_venda, valor_total_venda, data_venda)
+		VALUES (9, 12345678914, 0.0, 'Dinheiro', 599.00, '2018-11-03');
+		
+		INSERT INTO  produtos_venda (codigo_venda, codigo_produto_venda, descricao_produto_venda, valor_unidade_venda, quantidade_produto_venda)
+		VALUES (9, 5, 'tenis Jordan', 599.00, 1);
+
+			
+		INSERT INTO venda (codigo_venda, cpf_cliente_venda, desconto_venda, forma_pagamento_venda, valor_total_venda, data_venda)
+		VALUES (10, 12345678917, 0.0, 'Dinheiro', 210.00, '2018-11-03');
+		
+		INSERT INTO  produtos_venda (codigo_venda, codigo_produto_venda, descricao_produto_venda, valor_unidade_venda, quantidade_produto_venda)
+		VALUES (10, 4, 'bola07', 105.00, 2);
+
+
+		INSERT INTO venda (codigo_venda, cpf_cliente_venda, desconto_venda, forma_pagamento_venda, valor_total_venda, data_venda)
+		VALUES (11, 12345678920, 0.0, 'Dinheiro', 450.00, '2018-11-03');
+		
+		INSERT INTO  produtos_venda (codigo_venda, codigo_produto_venda, descricao_produto_venda, valor_unidade_venda, quantidade_produto_venda)
+		VALUES (11, 8, 'tenis Dame Dolla', 450.00, 1);
+		
+
+		INSERT INTO venda (codigo_venda, cpf_cliente_venda, desconto_venda, forma_pagamento_venda, valor_total_venda, data_venda)
+		VALUES (12, 12345678922, 0.0, 'Dinheiro', 99.00, '2018-11-04');
+		
+		INSERT INTO  produtos_venda (codigo_venda, codigo_produto_venda, descricao_produto_venda, valor_unidade_venda, quantidade_produto_venda)
+		VALUES (12, 3, 'bola05', 99.00, 1);
+
+		
+				INSERT INTO venda (codigo_venda, cpf_cliente_venda, desconto_venda, forma_pagamento_venda, valor_total_venda, data_venda)
+		VALUES (13, 12345678921, 0.0, 'Dinheiro', 297.00, '2018-11-04');
+		
+		INSERT INTO  produtos_venda (codigo_venda, codigo_produto_venda, descricao_produto_venda, valor_unidade_venda, quantidade_produto_venda)
+		VALUES (13, 3, 'bola05', 99.00, 3);
+
+
+		INSERT INTO venda (codigo_venda, cpf_cliente_venda, desconto_venda, forma_pagamento_venda, valor_total_venda, data_venda)
+		VALUES (14, 12345678925, 0.0, 'Dinheiro', 297.00, '2018-11-04');
+		
+		INSERT INTO  produtos_venda (codigo_venda, codigo_produto_venda, descricao_produto_venda, valor_unidade_venda, quantidade_produto_venda)
+		VALUES (14, 3, 'bola05', 99.00, 3);
+
+		
+		INSERT INTO venda (codigo_venda, cpf_cliente_venda, desconto_venda, forma_pagamento_venda, valor_total_venda, data_venda)
+		VALUES (15, 12345678916, 0.0, 'Dinheiro', 140.00, '2018-11-04');
+		
+		INSERT INTO  produtos_venda (codigo_venda, codigo_produto_venda, descricao_produto_venda, valor_unidade_venda, quantidade_produto_venda)
+		VALUES (15, 12, 'Meia NBA Cano Alto Clevland Cavaliers', 70.00, 2);
+
+
+		INSERT INTO venda (codigo_venda, cpf_cliente_venda, desconto_venda, forma_pagamento_venda, valor_total_venda, data_venda)
+		VALUES (16, 12345678915, 0.0, 'Cartão Debito', '1494.00', '2018-11-05');
+		
+		INSERT INTO  produtos_venda (codigo_venda, codigo_produto_venda, descricao_produto_venda, valor_unidade_venda, quantidade_produto_venda)
+		VALUES (16, 6, 'tenis Kyrie Irving', 498.00, 3);
+
+		
+		INSERT INTO venda (codigo_venda, cpf_cliente_venda, desconto_venda, forma_pagamento_venda, valor_total_venda, data_venda)
+		VALUES (17, 12345678916, 0.0, 'Cartão Debito', '699.00', '2018-11-07');
+		
+		INSERT INTO  produtos_venda (codigo_venda, codigo_produto_venda, descricao_produto_venda, valor_unidade_venda, quantidade_produto_venda)
+		VALUES (17, 7, 'tenis Harden', 699.00, 1);
+
+			
+		INSERT INTO venda (codigo_venda, cpf_cliente_venda, desconto_venda, forma_pagamento_venda, valor_total_venda, data_venda)
+		VALUES (18, 12345678915, 0.0, 'Cartão Debito', '3300.00', '2018-11-07');
+	
+		INSERT INTO  produtos_venda (codigo_venda, codigo_produto_venda, descricao_produto_venda, valor_unidade_venda, quantidade_produto_venda)
+		VALUES (18, 13, 'Tabela de Basquete Spalding NBA', '3300.00', 1);
+
+
+		INSERT INTO venda (codigo_venda, cpf_cliente_venda, desconto_venda, forma_pagamento_venda, valor_total_venda, data_venda)
+		VALUES (19, 12345678916, 0.0, 'Dinheiro', '1398.00', '2018-11-07');
+		
+		INSERT INTO  produtos_venda (codigo_venda, codigo_produto_venda, descricao_produto_venda, valor_unidade_venda, quantidade_produto_venda)
+		VALUES (19, 7, 'tenis Harden', 699.00, 2);
+
+		
+		INSERT INTO venda (codigo_venda, cpf_cliente_venda, desconto_venda, forma_pagamento_venda, valor_total_venda, data_venda)
+		VALUES (20, 12345678919, 0.0, 'Boleto', '400.00', '2018-11-08');
+		
+		INSERT INTO  produtos_venda (codigo_venda, codigo_produto_venda, descricao_produto_venda, valor_unidade_venda, quantidade_produto_venda)
+		VALUES (20, 10, 'Moletom New York Knicks', 200.00, 2);
+
+		
+		INSERT INTO venda (codigo_venda, cpf_cliente_venda, desconto_venda, forma_pagamento_venda, valor_total_venda, data_venda)
+		VALUES (21, 12345678914, 0.0, 'Boleto', '105.00', '2018-11-08');
+		
+		INSERT INTO  produtos_venda (codigo_venda, codigo_produto_venda, descricao_produto_venda, valor_unidade_venda, quantidade_produto_venda)
+		VALUES (21, 4, 'bola07', 105.00, 1);
+
+		
+		INSERT INTO venda (codigo_venda, cpf_cliente_venda, desconto_venda, forma_pagamento_venda, valor_total_venda, data_venda)
+		VALUES (22, 12345678913, 0.0, 'Boleto', 599.00, '2018-11-09');
+		
+		INSERT INTO  produtos_venda (codigo_venda, codigo_produto_venda, descricao_produto_venda, valor_unidade_venda, quantidade_produto_venda)
+		VALUES (22, 5, 'tenis Jordan', 599.00, 1);
+
+		
+		INSERT INTO venda (codigo_venda, cpf_cliente_venda, desconto_venda, forma_pagamento_venda, valor_total_venda, data_venda)
+		VALUES (23, 12345678912, 0.0, 'Dinheiro', 100.00, '2018-11-11');
+		
+		INSERT INTO  produtos_venda (codigo_venda, codigo_produto_venda, descricao_produto_venda, valor_unidade_venda, quantidade_produto_venda)
+		VALUES (23, 1, 'tenis', 100.00, 1);
+
+
+				INSERT INTO venda (codigo_venda, cpf_cliente_venda, desconto_venda, forma_pagamento_venda, valor_total_venda, data_venda)
+		VALUES (24, 12345678921, 0.0, 'Dinheiro', 99.00, '2018-11-11');
+		
+		INSERT INTO  produtos_venda (codigo_venda, codigo_produto_venda, descricao_produto_venda, valor_unidade_venda, quantidade_produto_venda)
+		VALUES (24, 3, 'bola05', 99.00, 1);
+
+
+				INSERT INTO venda (codigo_venda, cpf_cliente_venda, desconto_venda, forma_pagamento_venda, valor_total_venda, data_venda)
+		VALUES (25, 12345678918, 0.0, 'Dinheiro', 200.00, '2018-11-11');
+		
+		INSERT INTO  produtos_venda (codigo_venda, codigo_produto_venda, descricao_produto_venda, valor_unidade_venda, quantidade_produto_venda)
+		VALUES (25, 1, 'tenis', 100.00, 2);
+
+
+		INSERT INTO venda (codigo_venda, cpf_cliente_venda, desconto_venda, forma_pagamento_venda, valor_total_venda, data_venda)
+		VALUES (26, 12345678913, 0.0, 'Dinheiro', 300.00, '2018-11-13');
+		
+		INSERT INTO  produtos_venda (codigo_venda, codigo_produto_venda, descricao_produto_venda, valor_unidade_venda, quantidade_produto_venda)
+		VALUES (26, 1, 'tenis', 100.00, 3);
+
+
+		INSERT INTO venda (codigo_venda, cpf_cliente_venda, desconto_venda, forma_pagamento_venda, valor_total_venda, data_venda)
+		VALUES (27, 12345678925, 0.0, 'Dinheiro', 200.00, '2018-11-13');
+		
+		INSERT INTO  produtos_venda (codigo_venda, codigo_produto_venda, descricao_produto_venda, valor_unidade_venda, quantidade_produto_venda)
+		VALUES (27, 1, 'tenis', 100.00, 2);
+
+
+		INSERT INTO venda (codigo_venda, cpf_cliente_venda, desconto_venda, forma_pagamento_venda, valor_total_venda, data_venda)
+		VALUES (28, 12345678926, 0.0, 'Dinheiro', 200.00, '2018-11-13');
+		
+		INSERT INTO  produtos_venda (codigo_venda, codigo_produto_venda, descricao_produto_venda, valor_unidade_venda, quantidade_produto_venda)
+		VALUES (28, 1, 'tenis', 100.00, 2);
+		
+
+		INSERT INTO venda (codigo_venda, cpf_cliente_venda, desconto_venda, forma_pagamento_venda, valor_total_venda, data_venda)
+		VALUES (29, 12345678927, 0.0, 'Dinheiro', 352.00, '2018-11-14');
+		
+		INSERT INTO  produtos_venda (codigo_venda, codigo_produto_venda, descricao_produto_venda, valor_unidade_venda, quantidade_produto_venda)
+		VALUES (29, 2, 'jersey', 352.00, 1);
+
+		
+		INSERT INTO venda (codigo_venda, cpf_cliente_venda, desconto_venda, forma_pagamento_venda, valor_total_venda, data_venda)
+		VALUES (30, 12345678914, 0.0, 'Dinheiro', '3300.00', '2018-11-14');
+		
+		INSERT INTO  produtos_venda (codigo_venda, codigo_produto_venda, descricao_produto_venda, valor_unidade_venda, quantidade_produto_venda)
+		VALUES (30, 13, 'Tabela de Basquete Spalding NBA', '3300.00', 1);
+
+
+		INSERT INTO venda (codigo_venda, cpf_cliente_venda, desconto_venda, forma_pagamento_venda, valor_total_venda, data_venda)
+		VALUES (31, 12345678919, 0.0, 'Dinheiro', '199.00', '2018-11-15');
+		
+		INSERT INTO  produtos_venda (codigo_venda, codigo_produto_venda, descricao_produto_venda, valor_unidade_venda, quantidade_produto_venda)
+		VALUES (31, 9, 'Jaqueta Brooklyn Nets', '199.00', 1);
+
+
+		INSERT INTO venda (codigo_venda, cpf_cliente_venda, desconto_venda, forma_pagamento_venda, valor_total_venda, data_venda)
+		VALUES (32, 12345678918, 0.0, 'Dinheiro', '450.00', '2018-11-15');
+		
+		INSERT INTO  produtos_venda (codigo_venda, codigo_produto_venda, descricao_produto_venda, valor_unidade_venda, quantidade_produto_venda)
+		VALUES (32, 8, 'tenis Dame Dolla', '450.00', 1);
+
+		
+		INSERT INTO venda (codigo_venda, cpf_cliente_venda, desconto_venda, forma_pagamento_venda, valor_total_venda, data_venda)
+		VALUES (33, 12345678912, 0.0, 'Dinheiro', '352.00', '2018-11-16');
+		
+		INSERT INTO  produtos_venda (codigo_venda, codigo_produto_venda, descricao_produto_venda, valor_unidade_venda, quantidade_produto_venda)
+		VALUES (33, 2, 'jersey', '352.00', 1);	
+		
+		
+		INSERT INTO venda (codigo_venda, cpf_cliente_venda, desconto_venda, forma_pagamento_venda, valor_total_venda, data_venda)
+		VALUES (34, 12345678912, 0.0, 'Dinheiro', '1056.00', '2018-11-17');
+		
+		INSERT INTO  produtos_venda (codigo_venda, codigo_produto_venda, descricao_produto_venda, valor_unidade_venda, quantidade_produto_venda)
+		VALUES (34, 2, 'jersey', '352.00', 3);	
+
+		
+		INSERT INTO venda (codigo_venda, cpf_cliente_venda, desconto_venda, forma_pagamento_venda, valor_total_venda, data_venda)
+		VALUES (35, 12345678914, 0.0, 'Dinheiro', '1797.00', '2018-11-17');
+		
+		INSERT INTO  produtos_venda (codigo_venda, codigo_produto_venda, descricao_produto_venda, valor_unidade_venda, quantidade_produto_venda)
+		VALUES (35, 5, 'tenis Jordan', '599.00', 3);
+
+
+		INSERT INTO venda (codigo_venda, cpf_cliente_venda, desconto_venda, forma_pagamento_venda, valor_total_venda, data_venda)
+		VALUES (36, 12345678913, 0.0, 'Cartão Credito', '1408.00', '2018-11-18');
+		
+		INSERT INTO  produtos_venda (codigo_venda, codigo_produto_venda, descricao_produto_venda, valor_unidade_venda, quantidade_produto_venda)
+		VALUES (36, 2, 'jersey', '352.00', 4);	
+		
+
+		
+		INSERT INTO venda (codigo_venda, cpf_cliente_venda, desconto_venda, forma_pagamento_venda, valor_total_venda, data_venda)
+		VALUES (37, 12345678915, 0.0, 'Cartão Credito', '1398.00', '2018-11-19');
+		
+		INSERT INTO  produtos_venda (codigo_venda, codigo_produto_venda, descricao_produto_venda, valor_unidade_venda, quantidade_produto_venda)
+		VALUES (37, 6, 'tenis Harden', '699.00', 2);
+
+
+		INSERT INTO venda (codigo_venda, cpf_cliente_venda, desconto_venda, forma_pagamento_venda, valor_total_venda, data_venda)
+		VALUES (38, 12345678917, 0.0, 'Dinheiro', '420.00', '2018-11-19');
+		
+		INSERT INTO  produtos_venda (codigo_venda, codigo_produto_venda, descricao_produto_venda, valor_unidade_venda, quantidade_produto_venda)
+		VALUES (38, 4, 'bola07', '105.00', 4);	
+
+
+		INSERT INTO venda (codigo_venda, cpf_cliente_venda, desconto_venda, forma_pagamento_venda, valor_total_venda, data_venda)
+		VALUES (39, 12345678914, 0.0, 'Dinheiro', '450.00', '2018-11-19');
+		
+		INSERT INTO  produtos_venda (codigo_venda, codigo_produto_venda, descricao_produto_venda, valor_unidade_venda, quantidade_produto_venda)
+		VALUES (39, 8, 'tenis Dame Dolla', '450.00', 1);
+		
+
+		INSERT INTO venda (codigo_venda, cpf_cliente_venda, desconto_venda, forma_pagamento_venda, valor_total_venda, data_venda)
+		VALUES (40, 12345678917, 0.0, 'Cartão Credito', '6600.00', '2018-11-20');
+		
+		INSERT INTO  produtos_venda (codigo_venda, codigo_produto_venda, descricao_produto_venda, valor_unidade_venda, quantidade_produto_venda)
+		VALUES (40, 13, 'Tabela de Basquete Spalding NBA', '3300.00', 2);
+
+
+		
+		INSERT INTO venda (codigo_venda, cpf_cliente_venda, desconto_venda, forma_pagamento_venda, valor_total_venda, data_venda)
+		VALUES (41, 12345678920, 0.0, 'Boleto', '500.00', '2018-11-22');
+		
+		INSERT INTO  produtos_venda (codigo_venda, codigo_produto_venda, descricao_produto_venda, valor_unidade_venda, quantidade_produto_venda)
+		VALUES (41, 1, 'tenis', '100.00', 5);	
+		
+
+		INSERT INTO venda (codigo_venda, cpf_cliente_venda, desconto_venda, forma_pagamento_venda, valor_total_venda, data_venda)
+		VALUES (42, 12345678913, 0.0, 'Boleto', '200.00', '2018-11-25');
+		
+		INSERT INTO  produtos_venda (codigo_venda, codigo_produto_venda, descricao_produto_venda, valor_unidade_venda, quantidade_produto_venda)
+		VALUES (42, 1, 'tenis', '100.00', 2);
+
+
+		INSERT INTO venda (codigo_venda, cpf_cliente_venda, desconto_venda, forma_pagamento_venda, valor_total_venda, data_venda)
+		VALUES (43, 12345678917, 0.0, 'Boleto', '704.00', '2018-11-25');
+		
+		INSERT INTO  produtos_venda (codigo_venda, codigo_produto_venda, descricao_produto_venda, valor_unidade_venda, quantidade_produto_venda)
+		VALUES (43, 2, 'jersey', '352.00', 2);
+
+
+		
+		INSERT INTO venda (codigo_venda, cpf_cliente_venda, desconto_venda, forma_pagamento_venda, valor_total_venda, data_venda)
+		VALUES (44, 12345678914, 0.0, 'Dinheiro', '297.00', '2018-11-26');
+		
+		INSERT INTO  produtos_venda (codigo_venda, codigo_produto_venda, descricao_produto_venda, valor_unidade_venda, quantidade_produto_venda)
+		VALUES (44, 3, 'bola05', '99.00', 3);
+
+
+		INSERT INTO venda (codigo_venda, cpf_cliente_venda, desconto_venda, forma_pagamento_venda, valor_total_venda, data_venda)
+		VALUES (45, 12345678914, 0.0, 'Dinheiro', '297.00', '2018-11-26');
+		
+		INSERT INTO  produtos_venda (codigo_venda, codigo_produto_venda, descricao_produto_venda, valor_unidade_venda, quantidade_produto_venda)
+		VALUES (45, 3, 'bola05', '99.00', 3);
+			
+
+				INSERT INTO venda (codigo_venda, cpf_cliente_venda, desconto_venda, forma_pagamento_venda, valor_total_venda, data_venda)
+		VALUES (46, 12345678914, 0.0, 'Dinheiro', '700.00', '2018-11-27');
+		
+		INSERT INTO  produtos_venda (codigo_venda, codigo_produto_venda, descricao_produto_venda, valor_unidade_venda, quantidade_produto_venda)
+		VALUES (46, 12, 'Meia NBA Cano Alto Cleveland Cavaliers', '70.00', 10);
+
+	
+		INSERT INTO venda (codigo_venda, cpf_cliente_venda, desconto_venda, forma_pagamento_venda, valor_total_venda, data_venda)
+		VALUES (47, 12345678918, 0.0, 'Dinheiro', '1400.00', '2018-11-27');
+		
+		INSERT INTO  produtos_venda (codigo_venda, codigo_produto_venda, descricao_produto_venda, valor_unidade_venda, quantidade_produto_venda)
+		VALUES (47, 11, ' Mochila NBA Chicago Bulls', '200.00', 7);
+		
+
+		INSERT INTO venda (codigo_venda, cpf_cliente_venda, desconto_venda, forma_pagamento_venda, valor_total_venda, data_venda)
+		VALUES (48, 12345678919, 0.0, 'Cartão Credito', '1400.00', '2018-11-27');
+		
+		INSERT INTO  produtos_venda (codigo_venda, codigo_produto_venda, descricao_produto_venda, valor_unidade_venda, quantidade_produto_venda)
+		VALUES (48, 11, ' Mochila NBA Chicago Bulls', '200.00', 7);
+
+
+		INSERT INTO venda (codigo_venda, cpf_cliente_venda, desconto_venda, forma_pagamento_venda, valor_total_venda, data_venda)
+		VALUES (49, 12345678912, 0.0, 'Cartão Credito', '1797.00', '2018-11-29');
+		
+		INSERT INTO  produtos_venda (codigo_venda, codigo_produto_venda, descricao_produto_venda, valor_unidade_venda, quantidade_produto_venda)
+		VALUES (49, 5, 'tenis Jordan', '599.00', 3);		
+
+
+		INSERT INTO venda (codigo_venda, cpf_cliente_venda, desconto_venda, forma_pagamento_venda, valor_total_venda, data_venda)
+		VALUES (50, 12345678913, 0.0, 'Cartão Debito', '3594.00', '2018-11-30');
+		
+		INSERT INTO  produtos_venda (codigo_venda, codigo_produto_venda, descricao_produto_venda, valor_unidade_venda, quantidade_produto_venda)
+		VALUES (50, 5, 'tenis Jordan', '599.00', 6);
+
+		
+		INSERT INTO venda (codigo_venda, cpf_cliente_venda, desconto_venda, forma_pagamento_venda, valor_total_venda, data_venda)
+		VALUES (51, 12345678920, 0.0, 'Boleto', '996.00', '2018-11-30');
+		
+		INSERT INTO  produtos_venda (codigo_venda, codigo_produto_venda, descricao_produto_venda, valor_unidade_venda, quantidade_produto_venda)
+		VALUES (51, 7, 'tenis Kyrie Irving', '498.00', 2);
+
+		
+		INSERT INTO venda (codigo_venda, cpf_cliente_venda, desconto_venda, forma_pagamento_venda, valor_total_venda, data_venda)
+		VALUES (52, 12345678922, 0.0, 'Boleto', '3486.00', '2018-11-30');
+		
+		INSERT INTO  produtos_venda (codigo_venda, codigo_produto_venda, descricao_produto_venda, valor_unidade_venda, quantidade_produto_venda)
+		VALUES (52, 7, 'tenis Kyrie Irving', '498.00', 7);
+
+		
+		INSERT INTO venda (codigo_venda, cpf_cliente_venda, desconto_venda, forma_pagamento_venda, valor_total_venda, data_venda)
+		VALUES (53, 12345678923, 0.0, 'Boleto', '4224.00', '2018-11-30');
+		
+		INSERT INTO  produtos_venda (codigo_venda, codigo_produto_venda, descricao_produto_venda, valor_unidade_venda, quantidade_produto_venda)
+		VALUES (53, 2, 'jersey', '352.00', 12);
+
+		
+		INSERT INTO venda (codigo_venda, cpf_cliente_venda, desconto_venda, forma_pagamento_venda, valor_total_venda, data_venda)
+		VALUES (54, 12345678924, 0.0, 'Dinheiro', '352.00', '2018-11-30');
+		
+		INSERT INTO  produtos_venda (codigo_venda, codigo_produto_venda, descricao_produto_venda, valor_unidade_venda, quantidade_produto_venda)
+		VALUES (54, 2, 'jersey', '352.00', 1);
+
+
+				INSERT INTO venda (codigo_venda, cpf_cliente_venda, desconto_venda, forma_pagamento_venda, valor_total_venda, data_venda)
+		VALUES (55, 12345678925, 0.0, 'Dinheiro', '597.00', '2018-12-1');
+		
+		INSERT INTO  produtos_venda (codigo_venda, codigo_produto_venda, descricao_produto_venda, valor_unidade_venda, quantidade_produto_venda)
+		VALUES (55, 9, 'Jaqueta Brooklyn Nets', '199.00', 3);
+
+
+		INSERT INTO venda (codigo_venda, cpf_cliente_venda, desconto_venda, forma_pagamento_venda, valor_total_venda, data_venda)
+		VALUES (56, 12345678923, 0.0, 'Dinheiro', '995.00', '2018-12-2');
+		
+		INSERT INTO  produtos_venda (codigo_venda, codigo_produto_venda, descricao_produto_venda, valor_unidade_venda, quantidade_produto_venda)
+		VALUES (56, 9, 'Jaqueta Brooklyn Nets', '199.00', 5);
+
+
+
+		INSERT INTO venda (codigo_venda, cpf_cliente_venda, desconto_venda, forma_pagamento_venda, valor_total_venda, data_venda)
+		VALUES (57, 12345678925, 0.0, 'Dinheiro', '300.00', '2018-12-2');
+		
+		INSERT INTO  produtos_venda (codigo_venda, codigo_produto_venda, descricao_produto_venda, valor_unidade_venda, quantidade_produto_venda)
+		VALUES (57, 1, 'tenis', '100.00', 3);
+
+
+		INSERT INTO venda (codigo_venda, cpf_cliente_venda, desconto_venda, forma_pagamento_venda, valor_total_venda, data_venda)
+		VALUES (58, 12345678925, 0.0, 'Boleto', '210.00', '2018-12-2');
+		
+		INSERT INTO  produtos_venda (codigo_venda, codigo_produto_venda, descricao_produto_venda, valor_unidade_venda, quantidade_produto_venda)
+		VALUES (58, 4, 'bola07', '102.00', 2);
+
+
+		INSERT INTO venda (codigo_venda, cpf_cliente_venda, desconto_venda, forma_pagamento_venda, valor_total_venda, data_venda)
+		VALUES (59, 12345678921, 0.0, 'Boleto', '693.00', '2018-12-3');
+		
+		INSERT INTO  produtos_venda (codigo_venda, codigo_produto_venda, descricao_produto_venda, valor_unidade_venda, quantidade_produto_venda)
+		VALUES (59, 3, 'bola05', '99.00', 7);
+
+
+		INSERT INTO venda (codigo_venda, cpf_cliente_venda, desconto_venda, forma_pagamento_venda, valor_total_venda, data_venda)
+		VALUES (60, 1234567914, 0.0, 'Dinheiro', '2396.00', '2018-12-3');
+		
+		INSERT INTO  produtos_venda (codigo_venda, codigo_produto_venda, descricao_produto_venda, valor_unidade_venda, quantidade_produto_venda)
+		VALUES (60, 5, 'tenis Jordan', '599.00', 4);
+
+			
+		INSERT INTO venda (codigo_venda, cpf_cliente_venda, desconto_venda, forma_pagamento_venda, valor_total_venda, data_venda)
+		VALUES (61, 12345678915, 0.0, 'Dinheiro', '996.00', '2018-12-4');
+		
+		INSERT INTO  produtos_venda (codigo_venda, codigo_produto_venda, descricao_produto_venda, valor_unidade_venda, quantidade_produto_venda)
+		VALUES (61, 7, ' tenis Kyrie Irving', '498.00', 2);
+
+
+		INSERT INTO venda (codigo_venda, cpf_cliente_venda, desconto_venda, forma_pagamento_venda, valor_total_venda, data_venda)
+		VALUES (62, 12345678897, 0.0, 'Dinheiro', '2097.00', '2018-12-4');
+		
+		INSERT INTO  produtos_venda (codigo_venda, codigo_produto_venda, descricao_produto_venda, valor_unidade_venda, quantidade_produto_venda)
+		VALUES (62, 6, 'tenis Harden', '699.00', 3);
+
+		
+		INSERT INTO venda (codigo_venda, cpf_cliente_venda, desconto_venda, forma_pagamento_venda, valor_total_venda, data_venda)
+		VALUES (63, 12345678916, 0.0, 'Cartão Credito', '9900.00', '2018-12-4');
+		
+		INSERT INTO  produtos_venda (codigo_venda, codigo_produto_venda, descricao_produto_venda, valor_unidade_venda, quantidade_produto_venda)
+		VALUES (63, 13, 'Tabela de BAsquete Spalding NBA', '3300.00', 3);
+
+
+		INSERT INTO venda (codigo_venda, cpf_cliente_venda, desconto_venda, forma_pagamento_venda, valor_total_venda, data_venda)
+		VALUES (64, 12345678917, 0.0, 'Cartão Debito', '199.00', '2018-12-5');
+		
+		INSERT INTO  produtos_venda (codigo_venda, codigo_produto_venda, descricao_produto_venda, valor_unidade_venda, quantidade_produto_venda)
+		VALUES (64, 9, 'Jaqueta Brooklyn Nets', '199.00', 1);
+
+		
+		INSERT INTO venda (codigo_venda, cpf_cliente_venda, desconto_venda, forma_pagamento_venda, valor_total_venda, data_venda)
+		VALUES (65, 12345678918, 0.0, 'Boleto', '400.00', '2018-12-5');
+		
+		INSERT INTO  produtos_venda (codigo_venda, codigo_produto_venda, descricao_produto_venda, valor_unidade_venda, quantidade_produto_venda)
+		VALUES (65, 11, 'Mochila NBA Chicago Bulls', '200.00', 2);
+
+
+		INSERT INTO venda (codigo_venda, cpf_cliente_venda, desconto_venda, forma_pagamento_venda, valor_total_venda, data_venda)
+		VALUES (66, 12345678919, 0.0, 'Dinheiro', '200.00', '2018-12-6');
+		
+		INSERT INTO  produtos_venda (codigo_venda, codigo_produto_venda, descricao_produto_venda, valor_unidade_venda, quantidade_produto_venda)
+		VALUES (66, 11, 'Mochila NBA Chicago Bulls', '200.00', 1);
+
+
+		INSERT INTO venda (codigo_venda, cpf_cliente_venda, desconto_venda, forma_pagamento_venda, valor_total_venda, data_venda)
+		VALUES (67, 12345678920, 0.0, 'Dinheiro', '300.00', '2018-12-6');
+		
+		INSERT INTO  produtos_venda (codigo_venda, codigo_produto_venda, descricao_produto_venda, valor_unidade_venda, quantidade_produto_venda)
+		VALUES (67, 1, 'tenis', '100.00', 3);
+
+
+		INSERT INTO venda (codigo_venda, cpf_cliente_venda, desconto_venda, forma_pagamento_venda, valor_total_venda, data_venda)
+		VALUES (68, 12345678919, 0.0, 'Dinheiro', '704.00', '2018-12-6');
+		
+		INSERT INTO  produtos_venda (codigo_venda, codigo_produto_venda, descricao_produto_venda, valor_unidade_venda, quantidade_produto_venda)
+		VALUES (68, 2, 'jersey', '352.00', 2);
+
+		
+		INSERT INTO venda (codigo_venda, cpf_cliente_venda, desconto_venda, forma_pagamento_venda, valor_total_venda, data_venda)
+		VALUES (69, 123456788918, 0.0, 'Dinheiro', '1760.00', '2018-12-7');
+		
+		INSERT INTO  produtos_venda (codigo_venda, codigo_produto_venda, descricao_produto_venda, valor_unidade_venda, quantidade_produto_venda)
+		VALUES (69, 2, 'jersey', '352.00', 5);
+
+		
+		INSERT INTO venda (codigo_venda, cpf_cliente_venda, desconto_venda, forma_pagamento_venda, valor_total_venda, data_venda)
+		VALUES (70, 12345678917, 0.0, 'Dinheiro', '315.00', '2018-12-7');
+		
+		INSERT INTO  produtos_venda (codigo_venda, codigo_produto_venda, descricao_produto_venda, valor_unidade_venda, quantidade_produto_venda)
+		VALUES (70, 4, 'bola07', '105.00', 3);
+
+
+		INSERT INTO venda (codigo_venda, cpf_cliente_venda, desconto_venda, forma_pagamento_venda, valor_total_venda, data_venda)
+		VALUES (71, 12345678916, 0.0, 'Dinheiro', '525.00', '2018-12-8');
+		
+		INSERT INTO  produtos_venda (codigo_venda, codigo_produto_venda, descricao_produto_venda, valor_unidade_venda, quantidade_produto_venda)
+		VALUES (71, 4, 'bola07', '105.00', 5);
+
+		
+		INSERT INTO venda (codigo_venda, cpf_cliente_venda, desconto_venda, forma_pagamento_venda, valor_total_venda, data_venda)
+		VALUES (72, 12345678915, 0.0, 'Dinheiro', '1398.00', '2018-12-8');
+		
+		INSERT INTO  produtos_venda (codigo_venda, codigo_produto_venda, descricao_produto_venda, valor_unidade_venda, quantidade_produto_venda)
+		VALUES (72, 6, 'tenis Harden', '699.00', 2);
+
+		
+		INSERT INTO venda (codigo_venda, cpf_cliente_venda, desconto_venda, forma_pagamento_venda, valor_total_venda, data_venda)
+		VALUES (73, 12345678914, 0.0, 'Dinheiro', '1800.00', '2018-12-8');
+		
+		INSERT INTO  produtos_venda (codigo_venda, codigo_produto_venda, descricao_produto_venda, valor_unidade_venda, quantidade_produto_venda)
+		VALUES (73, 8, 'tenis Dame Dolla', '450.00', 4);
+
+		
+		INSERT INTO venda (codigo_venda, cpf_cliente_venda, desconto_venda, forma_pagamento_venda, valor_total_venda, data_venda)
+		VALUES (74, 12345678913, 0.0, 'Dinheiro', '599.00', '2018-12-9');
+		
+		INSERT INTO  produtos_venda (codigo_venda, codigo_produto_venda, descricao_produto_venda, valor_unidade_venda, quantidade_produto_venda)
+		VALUES (74, 5, 'tenis Jordan', '599.00', 1);
+		
+
+		INSERT INTO venda (codigo_venda, cpf_cliente_venda, desconto_venda, forma_pagamento_venda, valor_total_venda, data_venda)
+		VALUES (75, 12345678912, 0.0, 'Dinheiro', '900.00', '2018-12-9');
+		
+		INSERT INTO  produtos_venda (codigo_venda, codigo_produto_venda, descricao_produto_venda, valor_unidade_venda, quantidade_produto_venda)
+		VALUES (75, 8, 'tenis Dame Dolla', '450.00', 2);
+		
+
+		INSERT INTO venda (codigo_venda, cpf_cliente_venda, desconto_venda, forma_pagamento_venda, valor_total_venda, data_venda)
+		VALUES (76, 12345678912, 0.0, 'Boleto', '3520.00', '2018-12-9');
+		
+		INSERT INTO  produtos_venda (codigo_venda, codigo_produto_venda, descricao_produto_venda, valor_unidade_venda, quantidade_produto_venda)
+		VALUES (76, 2, 'jersey', '352.00', 10);
+
+
+		INSERT INTO venda (codigo_venda, cpf_cliente_venda, desconto_venda, forma_pagamento_venda, valor_total_venda, data_venda)
+		VALUES (77, 12345678913, 0.0, 'Cartao Debito', '300.00', '2018-12-9');
+		
+		INSERT INTO  produtos_venda (codigo_venda, codigo_produto_venda, descricao_produto_venda, valor_unidade_venda, quantidade_produto_venda)
+		VALUES (77, 1, 'tenis', '100.00', 3);
+
+
+		INSERT INTO venda (codigo_venda, cpf_cliente_venda, desconto_venda, forma_pagamento_venda, valor_total_venda, data_venda)
+		VALUES (78, 12345678914, 0.0, 'Cartao Debito', '352.00', '2018-12-9');
+		
+		INSERT INTO  produtos_venda (codigo_venda, codigo_produto_venda, descricao_produto_venda, valor_unidade_venda, quantidade_produto_venda)
+		VALUES (78, 2, 'jersey', '352.00', 1);
+		
+
+		INSERT INTO venda (codigo_venda, cpf_cliente_venda, desconto_venda, forma_pagamento_venda, valor_total_venda, data_venda)
+		VALUES (79, 12345678915, 0.0, 'Cartao Credito', '3300.00', '2018-12-10');
+		
+		INSERT INTO  produtos_venda (codigo_venda, codigo_produto_venda, descricao_produto_venda, valor_unidade_venda, quantidade_produto_venda)
+		VALUES (79, 13, 'Tabela de Basquete Spalding NBA', '3300.00', 1);
+		
+
+		INSERT INTO venda (codigo_venda, cpf_cliente_venda, desconto_venda, forma_pagamento_venda, valor_total_venda, data_venda)
+		VALUES (80, 12345678916, 0.0, 'Dinheiro', '400.00', '2018-12-10');
+		
+		INSERT INTO  produtos_venda (codigo_venda, codigo_produto_venda, descricao_produto_venda, valor_unidade_venda, quantidade_produto_venda)
+		VALUES (80, 10, 'Moletom New York Knicks', '200.00', 2);
+		
+
+		INSERT INTO venda (codigo_venda, cpf_cliente_venda, desconto_venda, forma_pagamento_venda, valor_total_venda, data_venda)
+		VALUES (81, 12345678917, 0.0, 'Dinheiro', '597.00', '2018-12-10');
+		
+		INSERT INTO  produtos_venda (codigo_venda, codigo_produto_venda, descricao_produto_venda, valor_unidade_venda, quantidade_produto_venda)
+		VALUES (81, 9, 'Jaqueta Brooklyn Nets', '199.00', 3);
+
+
+		INSERT INTO venda (codigo_venda, cpf_cliente_venda, desconto_venda, forma_pagamento_venda, valor_total_venda, data_venda)
+		VALUES (82, 12345678918, 0.0, 'Dinheiro', '352.00', '2018-12-10');
+		
+		INSERT INTO  produtos_venda (codigo_venda, codigo_produto_venda, descricao_produto_venda, valor_unidade_venda, quantidade_produto_venda)
+		VALUES (82, 2, 'jersey', '352.00', 1);
+
+
+		INSERT INTO venda (codigo_venda, cpf_cliente_venda, desconto_venda, forma_pagamento_venda, valor_total_venda, data_venda)
+		VALUES (83, 12345678919, 0.0, 'Dinheiro', '300.00', '2018-12-10');
+		
+		INSERT INTO  produtos_venda (codigo_venda, codigo_produto_venda, descricao_produto_venda, valor_unidade_venda, quantidade_produto_venda)
+		VALUES (83, 1, 'tenis', '100.00', 3);
+
+
+		INSERT INTO venda (codigo_venda, cpf_cliente_venda, desconto_venda, forma_pagamento_venda, valor_total_venda, data_venda)
+		VALUES (84, 12345678920, 0.0, 'Dinheiro', '200.00', '2018-12-10');
+		
+		INSERT INTO  produtos_venda (codigo_venda, codigo_produto_venda, descricao_produto_venda, valor_unidade_venda, quantidade_produto_venda)
+		VALUES (84, 1, 'tenis', '100.00', 2);
+		

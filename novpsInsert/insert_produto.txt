@@ -1,0 +1,59 @@
+		INSERT INTO produtos (codigo_produtos, cod_produtos, descricao_produtos, preco_unitario_produtos, unidade_medida_produto)
+		VALUES (1, 1, 'tenis', 100.00, 'pares');
+		
+		INSERT INTO produtos (codigo_produtos, cod_produtos, descricao_produtos, preco_unitario_produtos, unidade_medida_produto)
+		VALUES (2, 2, 'jersey', 352.00, 'unidade');
+		
+		INSERT INTO produtos (codigo_produtos, cod_produtos, descricao_produtos, preco_unitario_produtos, unidade_medida_produto)
+		VALUES (3, 3, 'bola05', 99.00, 'unidade');
+		
+		INSERT INTO produtos (codigo_produtos, cod_produtos, descricao_produtos, preco_unitario_produtos, unidade_medida_produto)
+		VALUES (4, 4, 'bola07', 105.00, 'unidade');
+		
+		INSERT INTO produtos (codigo_produtos, cod_produtos, descricao_produtos, preco_unitario_produtos, unidade_medida_produto)
+		VALUES (5, 5, 'tenis Jordan', 599.00, 'pares');
+		
+		INSERT INTO produtos (codigo_produtos, cod_produtos, descricao_produtos, preco_unitario_produtos, unidade_medida_produto)
+		VALUES (6, 6, 'tenis Harden', 699.00, 'pares');
+		
+		INSERT INTO produtos (codigo_produtos, cod_produtos, descricao_produtos, preco_unitario_produtos, unidade_medida_produto)
+		VALUES (7, 7, 'tenis Kyrie Irving', 498.00, 'pares');
+		
+		INSERT INTO produtos (codigo_produtos, cod_produtos, descricao_produtos, preco_unitario_produtos, unidade_medida_produto)
+		VALUES (8, 8, 'tenis Dame Dolla', 450.00, 'unidade');
+		
+		INSERT INTO produtos (codigo_produtos, cod_produtos, descricao_produtos, preco_unitario_produtos, unidade_medida_produto)
+		VALUES (9, 9, 'Jaqueta Brooklyn Nets ', 199.00, 'unidade');
+		
+		INSERT INTO produtos (codigo_produtos, cod_produtos, descricao_produtos, preco_unitario_produtos, unidade_medida_produto)
+		VALUES (10, 10, 'Moletom New York Knicks', 200.00, 'unidade');
+		
+		INSERT INTO produtos (codigo_produtos, cod_produtos, descricao_produtos, preco_unitario_produtos, unidade_medida_produto)
+		VALUES (11, 11, 'Mochila NBA Chicago Bulls', 200.00, 'unidade');
+		
+		INSERT INTO produtos (codigo_produtos, cod_produtos, descricao_produtos, preco_unitario_produtos, unidade_medida_produto)
+		VALUES (12, 12, 'Meia NBA Cano Alto Cleveland Cavaliers', 70.00, 'pares');
+		
+		INSERT INTO produtos (codigo_produtos, cod_produtos, descricao_produtos, preco_unitario_produtos, unidade_medida_produto)
+		VALUES (13, 13, 'Tabela de Basquete Spalding NBA', '3300.00', 'unidade');
+
+		INSERT INTO produtos (codigo_produtos, cod_produtos, descricao_produtos, preco_unitario_produtos, unidade_medida_produto)
+		VALUES (14, 14, 'sleave01', '1220.00', 'unidade');
+
+		INSERT INTO produtos (codigo_produtos, cod_produtos, descricao_produtos, preco_unitario_produtos, unidade_medida_produto)
+		VALUES (15, 15, 'sleave02', '1500.00', 'unidade');
+
+		INSERT INTO produtos (codigo_produtos, cod_produtos, descricao_produtos, preco_unitario_produtos, unidade_medida_produto)
+		VALUES (16, 16, 'bone03', '1000.00', 'unidade');
+
+		INSERT INTO produtos (codigo_produtos, cod_produtos, descricao_produtos, preco_unitario_produtos, unidade_medida_produto)
+		VALUES (17, 17, 'boneNYK', '2000.00', 'unidade');
+
+		INSERT INTO produtos (codigo_produtos, cod_produtos, descricao_produtos, preco_unitario_produtos, unidade_medida_produto)
+		VALUES (18, 18, 'boneCAVS', '2700.00', 'unidade');
+
+		INSERT INTO produtos (codigo_produtos, cod_produtos, descricao_produtos, preco_unitario_produtos, unidade_medida_produto)
+		VALUES (19, 19, 'hedband01', '2000.00', 'unidade');
+
+		INSERT INTO produtos (codigo_produtos, cod_produtos, descricao_produtos, preco_unitario_produtos, unidade_medida_produto)
+		VALUES (20, 20, 'hedband02', '1200.00', 'unidade');

@@ -1,0 +1,73 @@
+
+		INSERT INTO clientes (codigo_clientes, cpf_clientes, nome_clientes, telefone_clientes, tipo_telefone_clientes, cep_cliente, bairro_cliente, rua_cliente,
+							  complemento_cliente, uf_cliente,cidade_cliente)
+	    VALUES (3 , 12345678912, 'Jason Willians', 99999-9997, 'celular', 74775-120, 'centro', 'rua 55', 'quadra 05 lote 55', 'California', 'Sacramento');
+		
+		INSERT INTO clientes (codigo_clientes, cpf_clientes, nome_clientes, telefone_clientes, tipo_telefone_clientes, cep_cliente, bairro_cliente, rua_cliente,
+							  complemento_cliente, uf_cliente,cidade_cliente)
+	    VALUES (4 , 12345678913, 'Isiah Thomas', 99999-9996, 'celular', 74774-120, 'centro', 'rua 02', 'quadra 02 lote 02', 'Detroit', 'Michigan');
+		
+		INSERT INTO clientes (codigo_clientes, cpf_clientes, nome_clientes, telefone_clientes, tipo_telefone_clientes, cep_cliente, bairro_cliente, rua_cliente,
+							  complemento_cliente, uf_cliente,cidade_cliente)
+	    VALUES (5 , 12345678914, 'Lebron James', 99999-9995, 'celular', 74773-120, 'centro', 'rua 23', 'quadra 06 lote 23', 'California', 'Los Angeles');
+		
+		INSERT INTO clientes (codigo_clientes, cpf_clientes, nome_clientes, telefone_clientes, tipo_telefone_clientes, cep_cliente, bairro_cliente, rua_cliente,
+							  complemento_cliente, uf_cliente,cidade_cliente)
+	    VALUES (6 , 12345678915, 'Nicola Jokic', 99999-9994, 'celular', 74772-120, 'centro', 'rua 15', 'quadra 01 lote 15', 'Denver', 'Colorado');
+		
+		INSERT INTO clientes (codigo_clientes, cpf_clientes, nome_clientes, telefone_clientes, tipo_telefone_clientes, cep_cliente, bairro_cliente, rua_cliente,
+							  complemento_cliente, uf_cliente,cidade_cliente)
+	    VALUES (7 , 12345678916, 'Kyle Kuzma', 99999-9993, 'celular', 74771-120, 'centro', 'rua 23', 'quadra 06 lote 22', 'California', 'Los Angeles'); 
+		
+		INSERT INTO clientes (codigo_clientes, cpf_clientes, nome_clientes, telefone_clientes, tipo_telefone_clientes, cep_cliente, bairro_cliente, rua_cliente,
+							  complemento_cliente, uf_cliente,cidade_cliente)
+	    VALUES (8 , 12345678917, 'Rajon Rondo', 99999-9992, 'celular', 74770-120, 'centro', 'rua 23', 'quadra 06 lote 21', 'California', 'Los Angeles');
+		
+		INSERT INTO clientes (codigo_clientes, cpf_clientes, nome_clientes, telefone_clientes, tipo_telefone_clientes, cep_cliente, bairro_cliente, rua_cliente,
+							  complemento_cliente, uf_cliente,cidade_cliente)
+	    VALUES (9 , 12345678918, 'Anthony Davis', 99999-9991, 'celular', 74769-120, 'centro', 'rua 23', 'quadra 23 lote 01', 'Nova Orleães', 'Louisiana');
+		
+		INSERT INTO clientes (codigo_clientes, cpf_clientes, nome_clientes, telefone_clientes, tipo_telefone_clientes, cep_cliente, bairro_cliente, rua_cliente,
+							  complemento_cliente, uf_cliente,cidade_cliente)
+	    VALUES (10 , 12345678919, 'Luka Doncic', 99999-9990, 'celular', 74768-120, 'centro', 'rua 77', 'quadra 07 lote 77', ' Dallas', 'Texas');
+		
+		INSERT INTO clientes (codigo_clientes, cpf_clientes, nome_clientes, telefone_clientes, tipo_telefone_clientes, cep_cliente, bairro_cliente, rua_cliente,
+							  complemento_cliente, uf_cliente,cidade_cliente)
+	    VALUES (11 , 12345678920, 'dirk nowitzki', 99999-9989, 'celular', 74767-120, 'centro', 'rua 77', 'quadra 04 lote 41', ' Dallas', 'Texas');
+		
+		INSERT INTO clientes (codigo_clientes, cpf_clientes, nome_clientes, telefone_clientes, tipo_telefone_clientes, cep_cliente, bairro_cliente, rua_cliente,
+							  complemento_cliente, uf_cliente,cidade_cliente)
+	    VALUES (12 , 12345678921, 'Vince Carter', 99999-9988, 'celular', 74766-120, 'centro', 'rua 15', 'quadra 05 lote 15', ' Atlanta', 'Geórgia');
+		
+		INSERT INTO clientes (codigo_clientes, cpf_clientes, nome_clientes, telefone_clientes, tipo_telefone_clientes, cep_cliente, bairro_cliente, rua_cliente,
+							  complemento_cliente, uf_cliente,cidade_cliente)
+	    VALUES (13 , 12345678922, 'Trae Young', 99999-9987, 'celular', 74765-120, 'centro', 'rua 11', 'quadra 01 lote 11', ' Atlanta', 'Geórgia');
+		
+		INSERT INTO clientes (codigo_clientes, cpf_clientes, nome_clientes, telefone_clientes, tipo_telefone_clientes, cep_cliente, bairro_cliente, rua_cliente,
+							  complemento_cliente, uf_cliente,cidade_cliente)
+	    VALUES (14 , 12345678923, 'Damian Lillard', 99999-9986, 'celular', 74764-120, 'centro', 'rua 10', 'quadra 01 lote 10', 'Portland', 'Oregon');
+		
+		INSERT INTO clientes (codigo_clientes, cpf_clientes, nome_clientes, telefone_clientes, tipo_telefone_clientes, cep_cliente, bairro_cliente, rua_cliente,
+							  complemento_cliente, uf_cliente,cidade_cliente)
+	    VALUES (15 , 12345678924, 'C. J. McCollum', 99999-9985, 'celular', 74763-120, 'centro', 'rua 10', 'quadra 01 lote 03', 'Portland', 'Oregon');
+		
+		INSERT INTO clientes (codigo_clientes, cpf_clientes, nome_clientes, telefone_clientes, tipo_telefone_clientes, cep_cliente, bairro_cliente, rua_cliente,
+							  complemento_cliente, uf_cliente,cidade_cliente)
+	    VALUES (16 , 12345678925, 'Ben Simmons', 99999-9984, 'celular', 74762-120, 'centro', 'rua 03', 'quadra 3 lote 02', 'Philadelphia', 'Pensilvânia');
+		
+		INSERT INTO clientes (codigo_clientes, cpf_clientes, nome_clientes, telefone_clientes, tipo_telefone_clientes, cep_cliente, bairro_cliente, rua_cliente,
+							  complemento_cliente, uf_cliente,cidade_cliente)
+	    VALUES (17 , 12345678926, 'Markelle Fultz', 99999-9993, 'celular', 74761-120, 'centro', 'rua 03', 'quadra 3 lote 20', 'Philadelphia', 'Pensilvânia');
+		
+		INSERT INTO clientes (codigo_clientes, cpf_clientes, nome_clientes, telefone_clientes, tipo_telefone_clientes, cep_cliente, bairro_cliente, rua_cliente,
+							  complemento_cliente, uf_cliente,cidade_cliente)
+	    VALUES (18 , 12345678927, 'Joel Embiid', 99999-9992, 'celular', 74760-120, 'centro', 'rua 03', 'quadra 3 lote 21', 'Philadelphia', 'Pensilvânia');
+		
+		INSERT INTO clientes (codigo_clientes, cpf_clientes, nome_clientes, telefone_clientes, tipo_telefone_clientes, cep_cliente, bairro_cliente, rua_cliente,
+							  complemento_cliente, uf_cliente,cidade_cliente)
+	    VALUES (19 , 12345678928, 'Russell Westbrook', 99999-9990, 'celular', 74759-120, 'centro', 'rua 01', 'quadra 3 lote 01', 'Oklahoma City', 'Oklahoma');
+		
+		INSERT INTO clientes (codigo_clientes, cpf_clientes, nome_clientes, telefone_clientes, tipo_telefone_clientes, cep_cliente, bairro_cliente, rua_cliente,
+							  complemento_cliente, uf_cliente,cidade_cliente)
+	    VALUES (20 , 12345678929, 'Paul George', 99999-9989, 'celular', 74758-120, 'centro', 'rua 13', 'quadra 3 lote 13', 'Oklahoma City', 'Oklahoma');
+		

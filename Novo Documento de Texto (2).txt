@@ -1,0 +1,98 @@
+create sequence clientes_codigo_clientes_seq;
+	
+	create table clientes (
+		codigo_clientes integer not null default nextval('clientes_codigo_clientes_seq'),
+		cpf_clientes varchar not null,
+		nome_clientes varchar not null,
+		telefone_clientes varchar not null,
+		tipo_telefone_clientes varchar not null,
+		cep_cliente varchar not null,
+		bairro_cliente varchar not null,
+		rua_cliente varchar not null,
+		complemento_cliente varchar not null,
+		uf_cliente varchar not null,
+		cidade_cliente varchar not null,
+		constraint clientes_pk primary key (codigo_clientes)
+);
+	
+	alter sequence clientes_codigo_clientes_seq OWNED by clientes.codigo_clientes;
+	
+	
+	
+	create sequence produtos_codigo_produtos_seq;
+	
+	create table produtos (
+		codigo_produtos integer not null default nextval('produtos_codigo_produtos_seq'),
+		cod_produtos integer not null,
+		descricao_produtos varchar not null,
+		preco_unitario_produtos varchar not null,
+		unidade_medida_produto varchar not null,
+		constraint produtos_pk primary key (codigo_produtos)
+);
+	
+	alter sequence produtos_codigo_produtos_seq OWNED by produtos.codigo_produtos;
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	create sequence venda_codigo_venda_seq;
+	
+		create table venda (
+		codigo_venda integer not null default nextval('venda_codigo_venda_seq'),
+		cpf_cliente_venda varchar not null,
+		desconto_venda double precision not null,
+		forma_pagamento_venda varchar not null,
+		valor_total_venda double precision not null,
+		data_venda date not null default CURRENT_DATE,
+		
+		constraint venda_pk primary key (codigo_venda));
+		alter sequence venda_codigo_venda_seq OWNED by venda.codigo_venda;									 
+										 
+	
+
+
+
+		create table produtos_venda (
+		codigo_venda integer not null,
+		codigo_produto_venda varchar not null,
+		descricao_produto_venda varchar not null,
+		valor_unidade_venda double precision not null,
+		quantidade_produto_venda varchar not null,
+
+		FOREIGN KEY (codigo_venda) REFERENCES venda (codigo_venda)
+		);										 
+		
+		select * from venda
+										 
+	SELECT data_venda, SUM(valor_total_venda) FROM venda WHERE data_venda BETWEEN '2018-12-01' AND '2018-12-03' GROUP BY data_venda;
+				
+select data_venda, count(data_venda) 
+from venda 
+WHERE data_venda BETWEEN '2018-12-01' AND '2018-12-03'										 
+group by data_venda 
+having count(data_venda)>=1
+order by 1		
+										 
+select count(data_venda), data_venda from venda WHERE data_venda BETWEEN '2018-12-01' AND '2018-12-03' group by data_venda having count(data_venda)>=1 order by 1			
+
+
+
+select count(forma_pagamento_venda), forma_pagamento_venda
+from venda 									 
+group by forma_pagamento_venda 
+having count(forma_pagamento_venda)>=1
+order by 1		
+
+select cpf_cliente_venda, count(cpf_cliente_venda), sum(valor_total_venda) from venda group by cpf_cliente_venda 					
+		
